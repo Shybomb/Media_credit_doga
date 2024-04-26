@@ -1,21 +1,46 @@
- header{
-    background-color: #b588e7}
+body{
+    background-color: rgb(216, 209, 216);
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-align: center;}
+
+header{
+    background-color: #b588e7;
+    height: 30px;
+}
 
 #sidebar{
     background-color: #e3b957;
+    text-align: center;
+    height: 150px;
+    width: 150px;
 }
 
 #widget{
     background-color: #eb867c;
+    text-align: center;
 }
 
 #Statistics{
     background-color: #91b7e8;
+    text-align: center;
 }
 
 footer{
-    background-color: #b588e7}
+    background-color: #b588e7;
+    text-align: center;
+    height: 30px;
+}
 
 main{
     background-color: #a7dc8a;
+    height: 100px;
+    text-align: center;
 }
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
